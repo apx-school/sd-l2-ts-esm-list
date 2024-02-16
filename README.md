@@ -16,6 +16,9 @@ En este caso lo único distinto es el valor de `module` y `moduleResolution` que
 
 Para enteder la importancia de esta configuración prueben cambiando el valor de `module` a `CommonJs` y observen el resultado en `dist/index.js`.
 
+# index.html
+El index.html es el archivo que carga el JavaScript principal (ubicado en la carpeta dist) y lo hace utilizando un tag script con el type module `<script type="module">` para poder utilizar ES Modules.
+
 # Tip
 
 Para entender como funciona ESModules en el contexto del navegador es muy útil observan el panel `Network` de la devtools y ver como van sucediendo los requests a los distintos archivos.
