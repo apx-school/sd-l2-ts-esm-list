@@ -19,3 +19,5 @@ Para enteder la importancia de esta configuración prueben cambiando el valor de
 # Tip
 
 Para entender como funciona ESModules en el contexto del navegador es muy útil observan el panel `Network` de la devtools y ver como van sucediendo los requests a los distintos archivos.
+
+![image](https://github.com/apx-school/sd-l2-ts-esm-list/assets/1208547/47d8d238-8412-4427-8406-80e912daca5f)
